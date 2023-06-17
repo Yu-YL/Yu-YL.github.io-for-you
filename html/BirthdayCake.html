@@ -189,7 +189,25 @@
   <script src='../js/jquery.js'></script>
   <!-- <script src="js/auto-play.js"></script> -->
   <!-- <script src="js/birthday-cake.js"></script> -->
-  <audio src="../music/2.mp3" autoplay="autoplay" loop="loop"/>
-</body>
+<audio id="audios" controls height="100" width="100" volume="1.0">
+  <source src="../music/2.mp3" type="audio/mp3" />
+  <embed src="../music/2.mp3" />
+</audio>
 
+<script>
+  var audio = document.getElementById('audios');
+  audio.controls = false; // 隐藏默认的播放控件
+
+  // 如果浏览器支持自动播放，则立即播放音频
+  audio.addEventListener('canplaythrough', function() {
+    audio.play();
+  });
+
+  // 为了遵循浏览器的策略，在用户与页面进行交互后才能自动播放音频
+  document.addEventListener('click', function() {
+    if (audio.paused) {
+      audio.play();
+    }
+  });
+</script>
 </html>
