@@ -174,7 +174,9 @@ body {
 	margin-left: -100px;
 	opacity: 1;
 	animation: happybirthdays 10s;
-	animation-delay: 0s;
+	animation-delay: 0s; 
+	width: 200px; /* 調整寬度 */
+    height: 200px; /* 調整高度 */
 }
 @keyframes happybirthdays {
 	0% {
@@ -339,7 +341,7 @@ a.lk2:hover {
 .birthday-wishes { 
 	text-align: center; /* 將文字置中 */
 	font-family: "微軟正黑體", sans-serif; /* 設定字體 */
-	font-size: 24px; /* 設定字體大小 */
+	font-size: 18px; /* 設定字體大小 */
 	font-weight: bold; /* 設定字體粗細 */
 	color: #000000; /* 設定文字顏色 */
 	/* 其他文字相關的樣式設定 */
