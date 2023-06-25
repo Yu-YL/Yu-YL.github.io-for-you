@@ -169,14 +169,12 @@ body {
 
 .happy {
 	position:absolute;
-	left:35%;
-	top:48%;
+	left:30%;
+	top:40%;
 	margin-left: -100px;
 	opacity: 1;
 	animation: happybirthdays 10s;
 	animation-delay: 0s; 
-	width: 100px; /* 調整寬度 */
-    height: 100px; /* 調整高度 */
 }
 @keyframes happybirthdays {
 	0% {
