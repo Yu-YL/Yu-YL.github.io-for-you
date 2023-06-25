@@ -12,7 +12,7 @@ $('#login-button').click(function (event) {
 			},2000);
 		}
 	else{
-		alert("妳不是JN不能打開");
+		alert("妳不是筑寧不能打開");
 	}
 });
 
