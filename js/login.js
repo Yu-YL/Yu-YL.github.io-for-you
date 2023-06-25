@@ -12,7 +12,7 @@ $('#login-button').click(function (event) {
 			},2000);
 		}
 	else{
-		alert("Wrong Password");
+		alert("妳不是JN不能打開");
 	}
 });
 
