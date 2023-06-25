@@ -169,9 +169,9 @@ body {
 
 .happy {
 	position:absolute;
-	left:50%;
-	top:49%;
-	margin-left: -119px;
+	left:35%;
+	top:30%;
+	margin-left: -100px;
 	opacity: 1;
 	animation: happybirthdays 10s;
 	animation-delay: 0s;
@@ -334,3 +334,29 @@ a.lk2:hover {
 	border:2px solid #BBB;
 	transition:all 0.8s;
 }
+ 
+
+.birthday-wishes { 
+	text-align: center; /* 將文字置中 */
+	font-family: "微軟正黑體", sans-serif; /* 設定字體 */
+	font-size: 24px; /* 設定字體大小 */
+	font-weight: bold; /* 設定字體粗細 */
+	color: #000000; /* 設定文字顏色 */
+	/* 其他文字相關的樣式設定 */
+  } 
+
+/* 按鈕 */
+.surprise-button {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 10px 20px;
+	background-color: #ff0000;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 50px;
+	position: relative;
+	overflow: hidden;
+	z-index: 2; /* 確保按鈕處於前景 */
+  }
+  

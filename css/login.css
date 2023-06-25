@@ -70,7 +70,24 @@ body :-ms-input-placeholder {
   -webkit-transition-timing-function: ease-in-put;
           transition-timing-function: ease-in-put;
   font-weight: 200;
-}
+} 
+
+    .animated-text {
+        animation: bounce 1s infinite;
+    }
+
+    @keyframes bounce {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
 form {
   padding: 20px 0;
   position: relative;
