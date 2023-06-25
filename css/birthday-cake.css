@@ -175,8 +175,8 @@ body {
 	opacity: 1;
 	animation: happybirthdays 10s;
 	animation-delay: 0s; 
-	width: 200px; /* 調整寬度 */
-    height: 200px; /* 調整高度 */
+	width: 100px; /* 調整寬度 */
+    height: 100px; /* 調整高度 */
 }
 @keyframes happybirthdays {
 	0% {
