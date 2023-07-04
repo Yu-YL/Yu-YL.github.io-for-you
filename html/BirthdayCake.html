@@ -168,13 +168,36 @@
         </path>
         <rect class="come" x="10" y="475.571" fill="#fefae9" width="180" height="4" />
     </svg>
-</div>
+</div> 
 <div class="happy">
 	<img src="../img/HappyBirthday3.png"> 
-  <p class="birthday-wishes"> 準時吃飯，準時睡覺，毫不費力地，<br>得到了新的一歲囉！<br>祝 派郎 生日快樂呀！</p>  
-  <p class="birthday-wishes"> 想看到更多驚喜嗎，請點驚喜按鈕~ </p> 
+  <p class="birthday-wishes"> 準時吃飯，準時睡覺，毫不費力地</p>  
+  <p class="birthday-wishes"> 得到了新的一歲囉 ~</p>  
+  <p class="birthday-wishes"> 祝 派郎 生日快樂呀！</p> 
+  <p class="birthday-wishes"> 想看到更多驚喜嗎，請等待驚喜按鈕浮現~ </p>   
   <a href="Memories.html" class="surprise-button">驚喜按鈕</a>
 </div>
+<script>
+  // 頁面載入完成後，啟動計時器
+  window.onload = function() {
+    // 設置計時器，在2分鐘後執行showButton函數
+    setTimeout(showButton, 1.5 * 60 * 1000);
+  };
+
+  // 顯示按鈕的函數
+  function showButton() {
+    // 獲取驚喜按鈕的元素
+    var surpriseButton = document.querySelector('.surprise-button');
+    // 確認是否成功選取到按鈕元素
+    if (surpriseButton) {
+      // 顯示按鈕
+      surpriseButton.style.display = 'flex';
+    } else {
+      console.log('無法選取到按鈕元素');
+    }
+  }
+</script>
+
 <!-- <audio src="music/2.mp3"  autoplay="autoplay" loop="loop"></audio> -->
 <ul class="bg-bubbles">
       <li></li>
