@@ -347,7 +347,7 @@ a.lk2:hover {
 
 /* 按鈕 */
 .surprise-button {
-	display: flex;
+	display: none;
     justify-content: center;
     align-items: center;
 	padding: 10px 20px;
@@ -357,6 +357,6 @@ a.lk2:hover {
 	border-radius: 50px;
 	position: relative;
 	overflow: hidden;
-	z-index: 2; /* 確保按鈕處於前景 */
+	z-index: 2; /* 確保按鈕處於前景 */ 
   }
   
