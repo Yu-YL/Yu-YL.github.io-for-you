@@ -557,7 +557,7 @@
 /* 盒子 */
 .ly-box11 {
 	width: 70%;
-	height: 500px;
+	height: 600px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -606,7 +606,7 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 150%;
+	height: 180%;
 	border-radius: 8px; 
 	right: 0%;
 	opacity:0;
@@ -618,6 +618,14 @@
 	transition-delay:3.5s;
 }
 .ly-img11 {
+	position: absolute;
+	width: 70%; 
+	bottom: 0; 
+	left: 15%; 
+	transform: scale(1.3); /* 使用 scale() 函數進行縮放，此處縮放比例為 1.2，可根據需要進行調整 */
+  } 
+
+  .ly-img12 {
 	position: absolute;
 	width: 70%; 
 	bottom: 0; 
