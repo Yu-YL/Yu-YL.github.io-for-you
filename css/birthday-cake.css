@@ -348,7 +348,8 @@ a.lk2:hover {
 /* 按鈕 */
 .surprise-button {
 	display: none;
-    justify-content: center;
+    justify-content: center; 
+	font-family: "微軟正黑體", sans-serif; /* 設定字體 */
     align-items: center;
 	padding: 10px 20px;
 	background-color: #ff0000;
